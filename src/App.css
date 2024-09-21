@@ -14,12 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #1F1F1F;
+  position: fixed;
+  width: 100vw;
+  height: 20vh;
+  margin: 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +37,153 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color:#1F1F1F;
+  overflow-x: hidden;
+  margin: 0;
+  cursor: default;
+}
+
+#hcolM {
+  display: flex;
+  align-items: center;
+}
+
+#hcolM b {
+  color: white;
+  font-size: 7vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#hcolR {
+  width: 20vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#wusat {
+  width: 12vh;
+  height: 12vh;
+}
+
+#hcolL {
+  width: 20vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#homeB {
+  width: 12vh;
+  height: 12vh;
+}
+
+#homeBtn {
+  background-color: #1F1F1F;
+  border-radius: 6vh;
+  cursor: pointer;
+}
+
+main {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+#mcolL {
+  background-color: #1F1F1F;
+  height: 80vh;
+  width: 20vw;
+  position: fixed;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sys button {
+  width: 16vw;
+  height: 14vh;
+  cursor: pointer;
+}
+
+.sys b {
+  color: white;
+  font-size: 2.5vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.disp {
+  border-radius: 5vw 0 0 0;
+  margin-top: 20vh;
+  margin-left: 20vw;
+  padding-bottom: 7vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80vw;
+  min-height: 90vh;
+}
+
+.sect {
+  border-radius: 5vw 0 0 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80vw;
+}
+
+.disp b {
+  color: rgb(0, 0, 0);
+  font-size: 3vh;
+}
+
+button {
+  background-color: black;
+}
+
+.dLc {
+  padding: 10vh 10vh 0vh 10vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.dLc p {
+  font-size: 1.2vw;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0;
+  margin-bottom: 1.5vh;
+}
+
+.dRc {
+  padding: 10vh 10vh 0vh 10vh;
+  height: 60vh;
+  width: auto;
+  text-align: right;
+}
+
+h6 {
+  margin: 0.5vh;
+}
+
+.dRc img {
+  max-height: 55vh;
+  min-height: 40vh;
+  max-width: 30vw;
+  min-width: 15vw;
 }

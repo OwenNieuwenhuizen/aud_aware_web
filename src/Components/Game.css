@@ -1,0 +1,91 @@
+#game {
+  border-radius: 5vw 0 0 0;
+  margin-top: 20vh;
+  margin-left: 20vw;
+  padding: 5vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80vw;
+  min-height: 90vh;
+}
+
+h3 {
+    font-size: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-size: 1.1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#instruct {
+    text-align: left;
+}
+
+#field {
+    padding: 5vw;
+    border-radius: 2vw;
+    background-color: darkgray;
+    width: 50vw;
+    height: 40vh;
+}
+
+.sbsys {
+    width: 15vw;
+    height: 10vh;
+    background-color: black;
+    border-radius: 1vw;
+    position: fixed;
+    cursor: pointer;
+}
+
+#board {
+    margin-left: 25vw;
+    width: 20vw;
+    height: 25.6vw;
+    background-color: white;
+}
+
+#P1 {
+    background-image: url('../images/Puzzle/P1.png');
+    background-size: cover;
+    position: absolute;
+    width: 6.24vw;
+    height: 16.01vw;
+}
+
+#P2 {
+    background-image: url('../images/Puzzle/P2.png');
+    background-size: cover;
+    position: absolute;
+    width: 14.75vw;
+    height: 11.23vw;
+}
+
+#P3 {
+    background-image: url('../images/Puzzle/P3.png');
+    background-size: cover;
+    position: absolute;
+    width: 15.62vw;
+    height: 11.58vw;
+}
+
+#P4 {
+    background-image: url('../images/Puzzle/P4.png');
+    background-size: cover;
+    position: absolute;
+    width: 6.24vw;
+    height: 10.53vw;
+}
+
+#P5 {
+    background-image: url('../images/Puzzle/P5.png');
+    background-size: cover;
+    position: absolute;
+    width: 14.72vw;
+    height: 4.83vw;
+}
