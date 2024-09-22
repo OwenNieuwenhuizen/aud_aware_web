@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aud_aware_web/static/css/main.2c027a7e.css",
-    "main.js": "/aud_aware_web/static/js/main.d8c68343.js",
+    "main.js": "/aud_aware_web/static/js/main.47814249.js",
     "static/js/453.5c50b75f.chunk.js": "/aud_aware_web/static/js/453.5c50b75f.chunk.js",
     "static/media/GS1.png": "/aud_aware_web/static/media/GS1.c8a43fe2f93025b6c487.png",
     "static/media/SW.png": "/aud_aware_web/static/media/SW.c4be9e395e601a1deb0b.png",
@@ -23,11 +23,11 @@
     "static/media/DLogo2.png": "/aud_aware_web/static/media/DLogo2.e7acb4cf931719897d0b.png",
     "index.html": "/aud_aware_web/index.html",
     "main.2c027a7e.css.map": "/aud_aware_web/static/css/main.2c027a7e.css.map",
-    "main.d8c68343.js.map": "/aud_aware_web/static/js/main.d8c68343.js.map",
+    "main.47814249.js.map": "/aud_aware_web/static/js/main.47814249.js.map",
     "453.5c50b75f.chunk.js.map": "/aud_aware_web/static/js/453.5c50b75f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c027a7e.css",
-    "static/js/main.d8c68343.js"
+    "static/js/main.47814249.js"
   ]
 }
